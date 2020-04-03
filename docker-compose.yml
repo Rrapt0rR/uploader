@@ -1,0 +1,17 @@
+version: '3'
+services:
+  master:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/master
+    links:
+      - postgresql
+  postgresql:
+    image: postgres:10.4
+    volumes:
+      - ../master:/docker-entrypoint-initdb.d
+      
+    environment:
+      POSTGRES_USER: mastermanager
