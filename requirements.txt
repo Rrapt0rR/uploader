@@ -10,7 +10,7 @@ Flask-SQLAlchemy==2.1
 Flask-User==0.6
 Flask-WTF==0.12
 Flask-WhooshAlchemy==0.56
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 itsdangerous==0.24
 
 # Third party
