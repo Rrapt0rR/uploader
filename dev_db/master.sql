@@ -88,7 +88,7 @@ ALTER TABLE ONLY public.user ALTER COLUMN id SET DEFAULT nextval('public.user_us
 --
 
 COPY public.user (id, email, password_hash, user_name, user_account_name, reset_code, title, phone, ext, mobile, verified, verification_code, is_admin, is_banned) FROM stdin;
-1	peanut@pbf.org	pbkdf2:sha256:50000$hLxscNG5$15fec6e0fda7e431fce85eb286322715c1a0cb4a096d9e363f3b32759194c01d	dev user	Master	\N	\N	+11234567890	\N	\N	yes	V2SFS2VD43	yes	no
+1	user@awesome.org	pbkdf2:sha256:50000$hLxscNG5$15fec6e0fda7e431fce85eb286322715c1a0cb4a096d9e363f3b32759194c01d	dev user	Master	\N	\N	+11234567890	\N	\N	yes	V2SFS2VD43	yes	no
 \.
 
 
