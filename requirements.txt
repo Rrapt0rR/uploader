@@ -20,7 +20,7 @@ SQLAlchemy==1.1.0
 Tempita==0.5.2
 WTForms==2.0.2
 Whoosh==2.7.0
-requests==2.9.1
+requests==2.20.0
 blinker==1.4
 gunicorn==19.4.5
 sqlalchemy-migrate==0.10.0
